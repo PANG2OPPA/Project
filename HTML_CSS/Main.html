@@ -1,40 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/452a598308.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-    <script src="main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar__logo">
-            <div class="logo">
-                <img src="../images/logo_red.png" alt="logo_red" width="100px">
+  <header>
+    
+   <input type="checkbox" id="side_btn" class="side_input blind"/>
+   <label for="side_btn" class="side_toggle_btn"></label>
+   <div class="side_list">
+        <div class="scrollBar">
+        <a href="#" class="side_link">홈</a>
+        <a href="#" class="side_link">Shorts</a>
+        <a href="#" class="side_link">구독</a>
+        <a href="#" class="side_link">Youtube Music</a>
+        <hr>
+        <a href="#" class="side_link">보관함</a>
+        <a href="#" class="side_link">시청 기록</a>
+        <a href="#" class="side_link">내 동영상</a>
+        <a href="#" class="side_link">나중에 볼 동영상</a>
+        <a href="#" class="side_link">오프라인 저장 동영상</a>
+        <a href="#" class="side_link">좋아요 표시한 동영상</a>
+        <hr>
+        <br>
+        <h3 class="list_title">구독</h3>
+        <a href="#" class="side_link">Post Malone</a>
+        <a href="#" class="side_link">핫소스</a>
+        <a href="#" class="side_link">MrBeast</a>
+        <a href="#" class="side_link">BLACKPINK</a>
+        <a href="#" class="side_link">BANGTANTV</a>
+        <a href="#" class="side_link">HYBE LABELS</a>
+        <a href="#" class="side_link">SMTOWN</a>
+        <a href="#" class="side_link">officialpsy</a>
+        <a href="#" class="side_link">LEGO</a>
+        <a href="#" class="side_link">TWICE</a>
+        <a href="#" class="side_link">BIGBANG</a>
+    </div>
+    </div>
+   
+    <div class="logo">
+      <img src="../images/logo_white.png" alt="logo" width="130px">
+    </div>
+    <div class="search">
+      
+    <div class="search">
+        <input type="text" placeholder="검색">
+        <button class="search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    </div>
+  </header>
+
+  <section class="player">
+    <video controls src="../images/posty.mp4"></video>
+  </section>
+
+  <section class="info">
+    <div class="title">
+      <span class="title">
+        [LIVE] 포스트말론(Post Malone) - Overdrive | 한글자막 라이브 
+      </span>
+    </div>
+
+    <div class="channel">
+      <div class="metadata">
+        <img src="../images/channel_logo.jpg" alt="">
+        <div class="info">
+        <div class="info_1">
+          <div class="name">
+            유니버설 뮤직 코리아 Universal Music Korea
+          </div>
+          <div class="subscribers">
+            구독자 17.9만명
+          </div>
+        </div>
+        <div class="left_btn">
+          <button class="subscribe">구독</button>
+        </div>
+        <div class="right_btn">
+            <button class="like"><i class="fa-regular fa-thumbs-up"></i></button>
+            <button class="dislike"><i class="fa-regular fa-thumbs-down"></i></button>
+            <button button class="share"><i class="fa-solid fa-share"></i></button>
+            <button class="more"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="more">
+    <div class="more_info">
+        <class="description">
+            조회수 107,310회  2023. 7. 18.  <a style="color: rgb(69, 69, 248);">#포스트말론 #PostMalone #Overdrive</a>
+            <br>
+            <br>
+            포스트 말론이 온 맘 다해 부르는 'Overdrive' 낭만 미쳤다...
+            <br>
+            <br>
+            나머지 곡들도 너무 기대가 됩니다..ㅜㅜ
+            <br>
+            <br>
+            💿Post Malone - Overdrive💿
+            <br>
+            <br>
+            <a style="color: rgb(69, 69, 248);">#포스트말론 #PostMalone #Overdrive</a>
+            <br>
+            <br>
+            ※ 아티스트의 명예와 인격을 훼손하는 허위사실 유포, 인종 차별, 인신공격을 내용으로 하는 댓글의 경우 무통보 삭제됩니다.
+            </p>
+    </div>
+  </section>
+
+  <section class="comment">
+    <h4>댓글 5개</h4>
+    <br>
+    <div class="comment2">
+        <img src="../images/unnamed(1).jpg" alt="">
+        <input type="text" placeholder="댓글 추가...">
+    </div>
+    <div class="review">
+        <div class="review1">
+            <div class="review1_1">
+            <img src="../images/channels4_profile(1).jpg" alt="">
+            </div>
+            <div class="review1_2">
+                <p>@hb8509 1개월 전</p>
+                <p>정말 항상 앞으로가 기대된다</p>
+                <i class="fa-regular fa-thumbs-up"> 50 </i>
+                <i class="fa-regular fa-thumbs-down"> 0 </i> 답글
             </div>
         </div>
-
-        <ul class="navbar__menu">
-            <li><a href="">게임정보</a></li>
-            <li><a href="">새소식</a></li>
-            <li><a href="">다운로드</a></li>
-            <li><a href="">E스포츠</a></li>
-            <li><a href="">이벤트</a></li>
-            <li><a href="">알아보기</a></li>
-            <li><a href="">더 보기</a></li>
-        </ul>
-
-        <ul class="navbar__icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-globe"></i>
-        </ul>
-
-        <ul class="navbar__links">
-            <a href="https://zrr.kr/CJdA">로그인</a>
-            <a href="https://signup.kr.riotgames.com/">회원가입</a>
-        </ul>
-    </nav>
+        <div class="review1">
+            <div class="review1_1">
+            <img src="../images/channels4_profile(2).jpg" alt="">
+            </div>
+            <div class="review1_2">
+                <p>@user-521sdf6s5ad1 1개월 전</p>
+                <p>사랑한다</p>
+                <i class="fa-regular fa-thumbs-up"> 4 </i>
+                <i class="fa-regular fa-thumbs-down"> 0 </i> 답글
+            </div>
+        </div>
+        <div class="review1">
+            <div class="review1_1">
+            <img src="../images/channels4_profile(3).jpg" alt="">
+            </div>
+            <div class="review1_2">
+                <p>@user-d5as41d6sa 2개월 전</p>
+                <p>기대된다</p>
+                <i class="fa-regular fa-thumbs-up"> 5,012 </i>
+                <i class="fa-regular fa-thumbs-down"> 0 </i> 답글
+            </div>
+        </div>
+        <div class="review1">
+            <div class="review1_1">
+            <img src="../images/channels4_profile(6).jpg" alt="">
+            </div>
+            <div class="review1_2">
+                <p>@user-d54as1dd15 3개월 전</p>
+                <p>싸버렸다....</p>
+                <i class="fa-regular fa-thumbs-up"> 152</i>
+                <i class="fa-regular fa-thumbs-down"> 0 </i> 답글
+            </div>
+        </div>
+        <div class="review1">
+            <div class="review1_1">
+            <img src="../images/channels4_profile(8).jpg" alt="">
+            </div>
+            <div class="review1_2">
+                <p>@user-d5a1cwcw64e 3개월 전</p>
+                <p>떠... 떴다...!!!!</p>
+                <i class="fa-regular fa-thumbs-up"> 4,434 </i>
+                <i class="fa-regular fa-thumbs-down"> 0 </i> 답글
+            </div>
+        </div>
+    </div>
+  </section>
 </body>
 </html>
